@@ -1,0 +1,228 @@
+Package: ca.canucksoftware.clock.basic
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: bcbddeacbbba8dc425202a9cfe210505
+Size: 78284
+Filename: basic_1.0.0.ipk
+Description: Basic
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.KDBProdo.webs.com","Category":"Clock","LastUpdated":"1305095422","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-03-04_201013.png"],"Type":"Theme","FullDescription":"This is a very simple, basic clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Basic"}
+
+
+Package: ca.canucksoftware.clock.blue-glow-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: c0fe3c99a22d09f5f08f2a410fc2e834
+Size: 703808
+Filename: blue-glow-clock-theme_1.0.0.ipk
+Description: Blue Glow
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305096618","Screenshots":["http://dl.dropbox.com/u/12521579/blueglow.png"],"Type":"Theme","FullDescription":"Has a blue glow to the hands and clock face.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Blue Glow"}
+
+
+Package: ca.canucksoftware.clock.digitalblue
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 6b21fdd0ae15a59a999b94c3182bdfff
+Size: 149952
+Filename: digitalblue_1.0.0.ipk
+Description: DigitalBlue
+Maintainer: KBD Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305162234","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-11-05_175639.png"],"Type":"Theme","FullDescription":"A blue theme for the Digital Clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"DigitalBlue"}
+
+
+Package: ca.canucksoftware.clock.digitalred
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 6f1c128f2d311155b0f95e75d8e222bf
+Size: 99678
+Filename: digitalred_1.0.0.ipk
+Description: DigitalRed
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305164582","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-11-05_184000.png"],"Type":"Theme","FullDescription":"A red theme for the Digital Clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"DigitalRed"}
+
+
+Package: ca.canucksoftware.clock.grunge-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 7c227bc66329def3e0d4946f0c1f1e01
+Size: 934854
+Filename: grunge-clock-theme_1.0.0.ipk
+Description: Grunge
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305096421","Screenshots":["http://dl.dropbox.com/u/12521579/clock_grunge-theme.png"],"Type":"Theme","FullDescription":"Grunge look to this clock theme.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Grunge"}
+
+
+Package: ca.canucksoftware.clock.honeycomb
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 0e430b052e67aaae67a5a021ae04bf4c
+Size: 168198
+Filename: honeycomb_1.0.0.ipk
+Description: Honeycomb
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305188783","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-12-05_012058.png"],"Type":"Theme","FullDescription":"A honeycomb Clock theme for WebOS (Based off Android)","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Honeycomb"}
+
+
+Package: ca.canucksoftware.clock.latigid
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 2ab551616103509094cd5c1c3ccfe876
+Size: 75910
+Filename: latigid_1.0.0.ipk
+Description: Latigid
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.KDBProdo.webs.com","Category":"Clock","LastUpdated":"1305096570","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-04-04_013800.png"],"Type":"Theme","FullDescription":"This is an exact invert of the standard Digital theme for the Clock App.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Latigid"}
+
+
+Package: ca.canucksoftware.clock.neongreen
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 9e573fe5dbecdc6d13c48ddf85ccd3c3
+Size: 163752
+Filename: neongreen_1.0.0.ipk
+Description: NeonGreen
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.KDBProdo.webs.com","Category":"Clock","LastUpdated":"1305096206","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-04-04_172822.png"],"Type":"Theme","FullDescription":"This is a green neon theme with a great glow.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"NeonGreen"}
+
+
+Package: ca.canucksoftware.clock.old-school-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 74abfa4b6708a93c78e16cc1db7971ff
+Size: 830144
+Filename: old-school-clock-theme_1.0.0.ipk
+Description: Old
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305096259","Screenshots":["http://dl.dropbox.com/u/12521579/clock-theme-old-school.png"],"Type":"Theme","FullDescription":"Kind of an old look to this clock theme.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Old"}
+
+
+Package: ca.canucksoftware.clock.palm-dotcanvas
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 79b8410dc624f1f0134fea11abe62330
+Size: 7558
+Filename: palm-dotcanvas_1.0.0.ipk
+Description: Dot Matrix Canvas
+Maintainer: Palm Inc.
+Source: {"Category":"Clock","LastUpdated":"1305095185","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Dot Matrix Canvas"}
+
+
+Package: ca.canucksoftware.clock.palm-dotmatrix
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 8091e09e8ad4d004e33dcaa77387c519
+Size: 7346
+Filename: palm-dotmatrix_1.0.0.ipk
+Description: Dot Matrix
+Maintainer: Palm Inc.
+Source: {"Category":"Clock","LastUpdated":"1305095254","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Dot Matrix"}
+
+
+Package: ca.canucksoftware.clock.palm-neonbulb
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: d4604d3c3e42f498ff28e0c43a9c9c31
+Size: 11506
+Filename: palm-neonbulb_1.0.0.ipk
+Description: Neon Bulbs
+Maintainer: Palm Inc.
+Source: {"Category":"Clock","LastUpdated":"1305095417","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Neon Bulbs"}
+
+
+Package: ca.canucksoftware.clock.palm-neonrotate
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 7fb63b9e63e6ec2a3e4626e6db5c43d6
+Size: 8800
+Filename: palm-neonrotate_1.0.0.ipk
+Description: Neon Rotate
+Maintainer: Palm Inc.
+Source: {"Category":"Clock","LastUpdated":"1305095461","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Neon Rotate"}
+
+
+Package: ca.canucksoftware.clock.palm-neon
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: f2d25e8d050b054b7fa170493d2aa2fa
+Size: 6566
+Filename: palm-neon_1.0.0.ipk
+Description: Neon
+Maintainer: Palm Inc.
+Source: {"Category":"Clock","LastUpdated":"1305095351","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Neon"}
+
+
+Package: ca.canucksoftware.clock.royalblue
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 2d95768e18b4981ddc206ee8d43dd175
+Size: 225448
+Filename: royalblue_1.0.0.ipk
+Description: RoyalBlue
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.KDBProdo.webs.com","Category":"Clock","LastUpdated":"1305099403","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-11-05_003505.png"],"Type":"Theme","FullDescription":"A classy royal blue theme with a neon glow.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"RoyalBlue"}
+
+
+Package: ca.canucksoftware.clock.skull-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 4bfd454fdec21a727bd8960572a17918
+Size: 498818
+Filename: skull-clock-theme_1.0.0.ipk
+Description: Skull
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305095865","Screenshots":["http://dl.dropbox.com/u/12521579/clock-theme-skull.png"],"Type":"Theme","FullDescription":"Black back drop with an out line skull image.<br><br>Second hand is a small skull.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Skull"}
+
+
+Package: ca.canucksoftware.clock.slickred
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: cf49c75519bfecc43a40f9281d5ffb36
+Size: 48774
+Filename: slickred_1.0.0.ipk
+Description: SlickRed
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.KDBprodo.webs.com","Category":"Clock","LastUpdated":"1305093163","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-03-04_201037.png"],"Type":"Theme","FullDescription":"A slick red theme with a touch of red glow.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"SlickRed"}
+
+
+Package: ca.canucksoftware.clock.tron-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 7fc9898ea75cb1895d68ebb305b97a0d
+Size: 523726
+Filename: tron-clock-theme_1.0.0.ipk
+Description: Tron
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305096052","Screenshots":["http://dl.dropbox.com/u/12521579/clock-theme-tron.png"],"Type":"Theme","FullDescription":"Clock theme I made in reference to the movie Tron.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Tron"}
+
+
+Package: ca.canucksoftware.clock.tronclassic
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 889f5a9e8ecc8edffa3b0c9db89e11cc
+Size: 223022
+Filename: tronclassic_1.0.0.ipk
+Description: TronClassic
+Maintainer: KBD Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305152916","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-03-04_201027.png"],"Type":"Theme","FullDescription":"A elegant Tron Based Theme with a touch of cool, blue glow.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"TronClassic"}
+
+
