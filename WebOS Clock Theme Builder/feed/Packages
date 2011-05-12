@@ -106,66 +106,6 @@ Maintainer: Warlord9159
 Source: {"Category":"Clock","LastUpdated":"1305096259","Screenshots":["http://dl.dropbox.com/u/12521579/clock-theme-old-school.png"],"Type":"Theme","FullDescription":"Kind of an old look to this clock theme.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Old"}
 
 
-Package: ca.canucksoftware.clock.palm-dotcanvas
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: 79b8410dc624f1f0134fea11abe62330
-Size: 7558
-Filename: palm-dotcanvas_1.0.0.ipk
-Description: Dot Matrix Canvas
-Maintainer: Palm Inc.
-Source: {"Category":"Clock","LastUpdated":"1305095185","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Dot Matrix Canvas"}
-
-
-Package: ca.canucksoftware.clock.palm-dotmatrix
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: 8091e09e8ad4d004e33dcaa77387c519
-Size: 7346
-Filename: palm-dotmatrix_1.0.0.ipk
-Description: Dot Matrix
-Maintainer: Palm Inc.
-Source: {"Category":"Clock","LastUpdated":"1305095254","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Dot Matrix"}
-
-
-Package: ca.canucksoftware.clock.palm-neonbulb
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: d4604d3c3e42f498ff28e0c43a9c9c31
-Size: 11506
-Filename: palm-neonbulb_1.0.0.ipk
-Description: Neon Bulbs
-Maintainer: Palm Inc.
-Source: {"Category":"Clock","LastUpdated":"1305095417","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Neon Bulbs"}
-
-
-Package: ca.canucksoftware.clock.palm-neonrotate
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: 7fb63b9e63e6ec2a3e4626e6db5c43d6
-Size: 8800
-Filename: palm-neonrotate_1.0.0.ipk
-Description: Neon Rotate
-Maintainer: Palm Inc.
-Source: {"Category":"Clock","LastUpdated":"1305095461","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Neon Rotate"}
-
-
-Package: ca.canucksoftware.clock.palm-neon
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: f2d25e8d050b054b7fa170493d2aa2fa
-Size: 6566
-Filename: palm-neon_1.0.0.ipk
-Description: Neon
-Maintainer: Palm Inc.
-Source: {"Category":"Clock","LastUpdated":"1305095351","Screenshots":[""],"Type":"Theme","FullDescription":"","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Neon"}
-
-
 Package: ca.canucksoftware.clock.royalblue
 Version: 1.0.0
 Section: misc
