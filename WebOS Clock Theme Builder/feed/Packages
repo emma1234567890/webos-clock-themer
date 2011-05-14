@@ -22,6 +22,42 @@ Maintainer: Warlord9159
 Source: {"Category":"Clock","LastUpdated":"1305096618","Screenshots":["http://dl.dropbox.com/u/12521579/blueglow.png"],"Type":"Theme","FullDescription":"Has a blue glow to the hands and clock face.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Blue Glow"}
 
 
+Package: ca.canucksoftware.clock-theme-reinstaller
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: deef1e3d6a4c9c1a73ec599e77326b9e
+Size: 1016
+Filename: ca.canucksoftware.clock-theme-reinstaller_1.0.0_all.ipk
+Description: Clock Theme Reinstaller
+Maintainer: Jason Robitaille
+Source: {"Homepage":"http://code.google.com/p/webos-clock-themer/","Category":"Utilities","LastUpdated":"1305344675","Type":"Linux Application","FullDescription":"This is a self-removing package that will re-install all Clock themes made with the WebOS Clock Theme Builder. This is useful in the event an OTA update wipes the theme entries from the Clock app.","PostRemoveFlags":"RestartLuna","PostUpdateFlags":"RestartLuna","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Clock Theme Reinstaller","PostInstallFlags":"RestartLuna"}
+
+
+Package: ca.canucksoftware.clock.cogs-clock-theme
+Version: 1.0.5
+Section: misc
+Architecture: all
+MD5Sum: 9def30684eedb87571885c9cfc9f75ab
+Size: 412650
+Filename: cogs-clock-theme_1.0.5.ipk
+Description: Cogs
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305352299","Screenshots":["http://dl.dropbox.com/u/12521579/cogs.png"],"Type":"Theme","FullDescription":"Install and see :)","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Cogs"}
+
+
+Package: ca.canucksoftware.clock.darkcarbon
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 5d03a26b49866b74d3d53cddf9de86bf
+Size: 107428
+Filename: darkcarbon_1.0.0.ipk
+Description: DarkCarbon
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305252587","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-12-05_185525.png"],"Type":"Theme","FullDescription":"A dark carbon theme for the Clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"DarkCarbon"}
+
+
 Package: ca.canucksoftware.clock.digitalblue
 Version: 1.0.0
 Section: misc
@@ -82,6 +118,18 @@ Maintainer: KDB Productions
 Source: {"Homepage":"http://www.KDBProdo.webs.com","Category":"Clock","LastUpdated":"1305096570","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-04-04_013800.png"],"Type":"Theme","FullDescription":"This is an exact invert of the standard Digital theme for the Clock App.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Latigid"}
 
 
+Package: ca.canucksoftware.clock.lock
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: a987e677515084d3b7b27645c04d3735
+Size: 137102
+Filename: lock_1.0.0.ipk
+Description: Lock
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305252571","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-12-05_190754.png"],"Type":"Theme","FullDescription":"A lock based theme for the Clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Lock"}
+
+
 Package: ca.canucksoftware.clock.neongreen
 Version: 1.0.0
 Section: misc
@@ -140,6 +188,30 @@ Filename: slickred_1.0.0.ipk
 Description: SlickRed
 Maintainer: KDB Productions
 Source: {"Homepage":"http://www.KDBprodo.webs.com","Category":"Clock","LastUpdated":"1305093163","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-03-04_201037.png"],"Type":"Theme","FullDescription":"A slick red theme with a touch of red glow.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"SlickRed"}
+
+
+Package: ca.canucksoftware.clock.squared
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: a3ada222d4ff2130e58fce2e09d51bcb
+Size: 54782
+Filename: squared_1.0.0.ipk
+Description: Squared
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305252596","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-12-05_184434.png"],"Type":"Theme","FullDescription":"An elegant \"square\" theme for the clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Squared"}
+
+
+Package: ca.canucksoftware.clock.toon
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: d68060e32c379bcd8e8c12c7181517a4
+Size: 143024
+Filename: toon_1.0.0.ipk
+Description: Toon
+Maintainer: KDB Productions
+Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305252560","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-12-05_182827.png"],"Type":"Theme","FullDescription":"A humerous toon clock theme.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Toon"}
 
 
 Package: ca.canucksoftware.clock.tron-clock-theme
