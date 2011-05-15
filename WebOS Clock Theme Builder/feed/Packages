@@ -35,15 +35,15 @@ Source: {"Homepage":"http://code.google.com/p/webos-clock-themer/","Category":"U
 
 
 Package: ca.canucksoftware.clock.cogs-clock-theme
-Version: 1.0.5
+Version: 1.0.0
 Section: misc
 Architecture: all
-MD5Sum: 9def30684eedb87571885c9cfc9f75ab
-Size: 412650
-Filename: cogs-clock-theme_1.0.5.ipk
+MD5Sum: f8fa4bc721f46380084f13cb80b9e8cd
+Size: 163218
+Filename: cogs-clock-theme_1.0.0.ipk
 Description: Cogs
 Maintainer: Warlord9159
-Source: {"Category":"Clock","LastUpdated":"1305352299","Screenshots":["http://dl.dropbox.com/u/12521579/cogs.png"],"Type":"Theme","FullDescription":"Install and see :)","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Cogs"}
+Source: {"Category":"Clock","LastUpdated":"1305375435","Screenshots":["http://dl.dropbox.com/u/12521579/cogs.png"],"Type":"Theme","FullDescription":"Install and see :)<br>Runs a little slow in app view.<br> In Exhibition Mode, it runs really well and smooth...","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Cogs"}
 
 
 Package: ca.canucksoftware.clock.darkcarbon
@@ -130,6 +130,18 @@ Maintainer: KDB Productions
 Source: {"Homepage":"http://www.kdbprodo.webs.com","Category":"Clock","LastUpdated":"1305252571","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-12-05_190754.png"],"Type":"Theme","FullDescription":"A lock based theme for the Clock.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Lock"}
 
 
+Package: ca.canucksoftware.clock.medieval-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: 73f52496ea65dabd14f5bbb09003b14c
+Size: 219676
+Filename: medieval-clock-theme_1.0.0.ipk
+Description: medieval
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305415453","Screenshots":["http://dl.dropbox.com/u/12521579/medieval.jpg"],"Type":"Theme","FullDescription":"Medieval Skeletons clock","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"medieval"}
+
+
 Package: ca.canucksoftware.clock.neongreen
 Version: 1.0.0
 Section: misc
@@ -164,6 +176,18 @@ Filename: royalblue_1.0.0.ipk
 Description: RoyalBlue
 Maintainer: KDB Productions
 Source: {"Homepage":"http://www.KDBProdo.webs.com","Category":"Clock","LastUpdated":"1305099403","License":"Creative Commons","Screenshots":["http://kdbprodo.webs.com/clock_2011-11-05_003505.png"],"Type":"Theme","FullDescription":"A classy royal blue theme with a neon glow.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"RoyalBlue"}
+
+
+Package: ca.canucksoftware.clock.silver-clock-theme
+Version: 1.0.0
+Section: misc
+Architecture: all
+MD5Sum: fafcc62410c188f98345d895f91e1de7
+Size: 267056
+Filename: silver-clock-theme_1.0.0.ipk
+Description: Silver
+Maintainer: Warlord9159
+Source: {"Category":"Clock","LastUpdated":"1305391452","Screenshots":["http://dl.dropbox.com/u/12521579/star.jpg"],"Type":"Theme","FullDescription":"Silver star","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Silver"}
 
 
 Package: ca.canucksoftware.clock.skull-clock-theme

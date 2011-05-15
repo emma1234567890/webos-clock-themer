@@ -612,7 +612,8 @@ public class ThemeBuilderView extends FrameView {
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        File f = loadFileChooser(new CustomFilter(".png", "PNG Files"), null);
+        File f = loadFileChooser(new CustomFilter(
+                new String[] {".png", ".bmp", ".jpg", ".jpeg", ".gif"}, "Image Files"), null);
         if(f!=null) {
             images.add(f);
             displayImageList();
@@ -830,15 +831,25 @@ public class ThemeBuilderView extends FrameView {
     // End of variables declaration//GEN-END:variables
 
     private class CustomFilter extends FileFilter {
-        private String ext;
+        private String[] exts;
         private String label;
         public CustomFilter(String ext, String label) {
+            this(new String[] {ext}, label);
+        }
+        public CustomFilter(String[] exts, String label) {
             super();
-            this.ext = ext;
+            this.exts = exts;
             this.label = label;
         }
         public boolean accept(File f) {
-            return (f.getName().toLowerCase().endsWith(ext) || f.isDirectory());
+            boolean result = false;
+            for(int i=0; i<exts.length; i++) {
+                if(f.getName().toLowerCase().endsWith(exts[i]) || f.isDirectory()) {
+                    result = true;
+                    break;
+                }
+            }
+            return result;
         }
         public String getDescription() {
             return label;
