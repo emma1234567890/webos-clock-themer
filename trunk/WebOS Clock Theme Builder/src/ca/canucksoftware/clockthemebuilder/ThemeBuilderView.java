@@ -71,7 +71,11 @@ public class ThemeBuilderView extends FrameView {
             public void  filesDropped(File[] files ) {
                 if(files!=null && files.length>0) {
                     for(int i=0; i<files.length; i++) {
-                        if(files[i].getName().toLowerCase().endsWith(".png")) {
+                        if(files[i].getName().toLowerCase().endsWith(".png") ||
+                                files[i].getName().toLowerCase().endsWith(".bmp") ||
+                                files[i].getName().toLowerCase().endsWith(".jpg") ||
+                                files[i].getName().toLowerCase().endsWith(".jpeg") ||
+                                files[i].getName().toLowerCase().endsWith(".gif")) {
                             images.add(files[i]);
                         }
                     }
