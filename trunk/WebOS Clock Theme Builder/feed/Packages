@@ -1,15 +1,3 @@
-Package: ca.canucksoftware.clock.animated-star-clock-theme
-Version: 1.0.0
-Section: misc
-Architecture: all
-MD5Sum: 7ade4d5149de7fefe9d5d6c0ac8bc65d
-Size: 103408
-Filename: animated-star-clock-theme_1.0.0.ipk
-Description: Ani Star
-Maintainer: Warlord9159
-Source: {"Category":"Clock","LastUpdated":"1305423812","Screenshots":["http://dl.dropbox.com/u/12521579/base.png"],"Type":"Theme","FullDescription":"Animated Star background.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Ani Star"}
-
-
 Package: ca.canucksoftware.clock.basic
 Version: 1.0.0
 Section: misc
