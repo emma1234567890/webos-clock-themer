@@ -4,7 +4,15 @@ NODE_FRAMEWORKS=/usr/palm/frameworks
 NODE_ADDONS=/usr/palm/nodejs
 
 if [ -z "$IPKG_OFFLINE_ROOT" ] ; then
-	/usr/sbin/rootfs_open -w
+	/bin/mount -o remount,rw /
+	if [ $? -ne 0 ]; then
+		/usr/sbin/rootfs_open -w
+		if [ $? -ne 0 ]; then
+			echo "Error remounting root partition read-write."
+			echo "Reboot device then try installing again."
+			exit 1
+		fi
+	fi
 fi
 
 /bin/mkdir -p $PATH/theme
@@ -18,16 +26,19 @@ fi
 /bin/cp -fr $PATH/files/* $PATH/theme
 /bin/ln -fs $PATH/theme $THEMES/$ID
 
+if [ ! -h $THEMES/$ID ] ; then
+	/bin/echo "Unable to symlink theme location"
+	/bin/rm -f $THEMES/$ID
+	/bin/rm -fr $PATH/theme
+	exit 1
+fi
+
 if [ -f $PATH/icon.png ] ; then
 	/bin/ln -fs $PATH/icon.png /usr/palm/applications/com.palm.app.clock/images/list-icon-$ID.png
 fi
 
 if [ -f /usr/bin/java-serviceboot ] ; then
 	/usr/bin/luna-send -n 1 palm://ca.canucksoftware.systoolsmgr/updateClockThemes {\"action\":\"add\",\"id\":\"$ID\",\"name\":\"$NAME\"}
-	/bin/grep -q \"name\":\"$ID\" $THEMES/themes.json
-	if [ $? != 0 ] ; then
-		exit 1
-	fi
 else
 	if [ -f /usr/lib/libmemcpy.so ] ; then
 		export LD_PRELOAD="/usr/lib/libmemcpy.so:${LD_PRELOAD}"
