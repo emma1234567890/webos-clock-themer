@@ -7,7 +7,9 @@ package ca.canucksoftware.clockthemebuilder;
 import ca.canucksoftware.ipk.IpkgBuilder;
 import ca.canucksoftware.utils.FileUtils;
 import ca.canucksoftware.utils.JarResource;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.net.URL;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
@@ -123,6 +125,64 @@ public class ThemeBuilderView extends FrameView {
                 }
             }
         });
+        if(ThemeBuilderApp.args!=null) {
+            if(ThemeBuilderApp.args.length>0) {
+                if(ThemeBuilderApp.args[0].equalsIgnoreCase("-c")) {
+                    FileDrop drop6 = new FileDrop(jLayeredPane2, new FileDrop.Listener() {
+                        public void  filesDropped(File[] files ) {
+                            if(files!=null && files.length>0) {
+                                if(FileUtils.getFilename(files[0]).equalsIgnoreCase("control")) {
+                                    loadControlInfo(files[0]);
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+        }
+    }
+    
+    private void loadControlInfo(File control) {
+        try {
+            BufferedReader input = new BufferedReader(new FileReader(control));
+            String line = input.readLine();
+            while(line!=null) {
+                line = line.trim();
+                if(line.length()>0)
+                    if(line.startsWith("Package")) {
+                    	jTextField2.setText(line.substring(line.indexOf(":")+1).trim()
+                                .replaceFirst("ca.canucksoftware.clock.", ""));
+                    } else if(line.startsWith("Description")) {
+                    	jTextField1.setText(line.substring(line.indexOf(":")+1).trim());
+                    } else if(line.startsWith("Version")) {
+                    	jTextField3.setText(line.substring(line.indexOf(":")+1).trim());
+                    } else if(line.startsWith("Maintainer")) {
+                    	jTextField4.setText(line.substring(line.indexOf(":")+1).trim());
+                    } else if(line.startsWith("Source")) {
+                        String source = line.substring(line.indexOf(":")+1).trim();
+                    	if(source.startsWith("{") && source.endsWith("}")) {
+                            JSONObject json = new JSONObject(source);
+                            if(json.has("FullDescription")) {
+                                jTextArea1.setText(json.getString("FullDescription").replaceAll("<br>", "\n"));
+                            }
+                            if(json.has("Screenshots")) {
+                                JSONArray ss = json.getJSONArray("Screenshots");
+                                if(ss.length()>0) {
+                                    jTextField6.setText(ss.getString(0));
+                                }
+                            }
+                            if(json.has("Homepage")) {
+                                jTextField7.setText(json.getString("Homepage"));
+                            }
+                            if(json.has("License")) {
+                                jTextField8.setText(json.getString("License"));
+                            }
+                        }
+                    }
+                line = input.readLine();
+            }
+            input.close();
+        } catch(Exception e) {}
     }
 
     private File loadFileChooser(javax.swing.filechooser.FileFilter ff, String saveName) {
@@ -595,6 +655,10 @@ public class ThemeBuilderView extends FrameView {
             jButton7.setVisible(true);
             jButton3.setVisible(true);
         } else {
+            if(jComboBox1.getSelectedIndex()==1) {
+                JOptionPane.showMessageDialog(mainPanel, "NOTICE: Themes created with the " +
+                        "Classic base will only work on webOS 2.0 and higher");
+            }
             baseHTML = null;
             baseJS = null;
             baseCSS = null;
@@ -739,9 +803,13 @@ public class ThemeBuilderView extends FrameView {
                         FileUtils.copy(curr, new File(imagesDir, FileUtils.getFilename(curr)));
                     }
                     JSONObject source = new JSONObject();
+                    if(jComboBox1.getSelectedIndex()==1) {
+                        source.put("MinWebOSVersion", "2.0.0");
+                    }
                     source.put("Title", name);
                     source.put("LastUpdated", time);
                     source.put("Type", "Theme");
+                    source.put("Feed", "Clock Themes");
                     source.put("Category", "Clock");
                     if(homepage.length()>0) {
                         source.put("Homepage", homepage);

@@ -11,7 +11,7 @@ import org.jdesktop.application.SingleFrameApplication;
  * The main class of the application.
  */
 public class ThemeBuilderApp extends SingleFrameApplication {
-
+    public static String[] args;
     /**
      * At startup create and show the main frame of the application.
      */
@@ -41,6 +41,9 @@ public class ThemeBuilderApp extends SingleFrameApplication {
      * Main method launching the application.
      */
     public static void main(String[] args) {
+        if(args!=null && args.length>0) {
+            ThemeBuilderApp.args = args;
+        }
         launch(ThemeBuilderApp.class, args);
     }
 }
