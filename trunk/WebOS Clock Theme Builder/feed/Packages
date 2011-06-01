@@ -26,12 +26,12 @@ Package: ca.canucksoftware.clock-theme-recovery
 Version: 1.0.0
 Section: misc
 Architecture: all
-MD5Sum: 8f0fbb3d399eded3bf04fb5d2ab1c1f2
-Size: 2240
+MD5Sum: 2151a824aec52cdb34f3d81e06216b72
+Size: 2252
 Filename: ca.canucksoftware.clock-theme-recovery_1.0.0_all.ipk
 Description: Clock Theme Recovery
 Maintainer: Jason Robitaille
-Source: {"Category":"Utilities","LastUpdated":"1306894394","Type":"Linux Application","FullDescription":"WARNING: This is a self-removing package that will remove all installed clock themes completely. In addition, it will reset the themes.json contents in the event you've accidentally destroyed that. Should fix most clock theme problems you may encounter.","Icon":"http://media.precentral.net/resources/application-icons/000/015/066/icon.png","Title":"Clock Theme Recovery","PostInstallFlags":"RestartLuna"}
+Source: {"Category":"Utilities","LastUpdated":"1306905628","Type":"Linux Application","FullDescription":"WARNING: This is a self-removing package that will remove all installed clock themes completely. In addition, it will reset the themes.json contents in the event you've accidentally destroyed that. Should fix most clock theme problems you may encounter.","Icon":"http://www.webos-internals.org/images/8/8d/Icon_WebOSInternals_Patches_Clock.png","Title":"Clock Theme Recovery","PostInstallFlags":"RestartLuna"}
 
 
 Package: ca.canucksoftware.clock-theme-reinstaller
